@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 18</title>
+</head>
+<body>
+
+    <div id="output"></div>
+
+    <script>
+        var styles = ["Jazz", "Blues"];
+        displayArray(styles);
+
+        styles.push("Rock-n-Roll");
+        displayArray(styles);
+
+        var middleIndex = Math.floor(styles.length / 2);
+        styles[middleIndex] = "Classics";
+        displayArray(styles);
+
+        var firstElement = styles.shift();
+        displayArray(styles);
+
+        styles.unshift("Rap", "Reggae");
+        displayArray(styles);
+
+        function displayArray(array) {
+            var outputDiv = document.getElementById('output');
+            var paragraph = document.createElement('p');
+            paragraph.textContent = array.join(", ");
+            outputDiv.appendChild(paragraph);
+        }
+    </script>
+</body>
+</html>
