@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 21</title>
+</head>
+<body>
+
+    <div id="output"></div>
+
+    <script>
+        function copySorted(arr) {
+            var sortedCopy = arr.slice();
+            sortedCopy.sort();
+            return sortedCopy;
+        }
+
+        var arr = ["банан", "апельсин", "вишня", "груша"];
+        var sortedCopy = copySorted(arr);
+
+        var outputDiv = document.getElementById('output');
+        outputDiv.innerHTML = 'Вихідний масив: ' + arr.join(', ') + '<br>' +
+            'Відсортована копія: ' + sortedCopy.join(', ');
+    </script>
+</body>
+</html>
