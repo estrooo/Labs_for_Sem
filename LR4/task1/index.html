@@ -1,0 +1,49 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LR4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="tabs">
+        <div class="tab whiteborder">border-radius</div>
+        <div class="tab">tab-2</div>
+        <div class="tab">tab-3</div>
+        <div class="tabContent show">
+            <div>Верхній лівий радіус:
+                <input type="range" id="rtl" min="0" max="100" value="0" oninput="generate()">
+                <input type="text" id="ttl" value="0">
+            </div>
+            <div>Верхній правий радіус:
+                <input type="range" id="rtr" min="0" max="100" value="0" oninput="generate()">
+                <input type="text" id="ttr" value="0">
+            </div>
+            <div>Нижній лівий радіус:
+                <input type="range" id="rbl" min="0" max="100" value="0" oninput="generate()">
+                <input type="text" id="tbl" value="0">
+            </div>
+            <div>Нижній правий радіус:
+                <input type="range" id="rbr" min="0" max="100" value="0" oninput="generate()">
+                <input type="text" id="tbr" value="0">
+            </div>
+            <div id="block" style="border-radius: 17px 39px 100px 26px;"></div>
+            <textarea id="cssCode" readonly=""></textarea>
+        </div>
+        <div class="tabContent hide">
+            <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam minus perspiciatis, itaque dicta iusto distinctio, odit accusamus, laborum nemo velit ratione quidem modi facere iste culpa rem sunt tempore ipsam!</div>
+        </div>
+        <div class="tabContent hide">
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore molestias molestiae porro dignissimos
+                ad consectetur eaque maiores magnam eveniet temporibus non vel saepe, tenetur asperiores, libero
+                repellat, perferendis expedita. Adipisci.</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
