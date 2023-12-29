@@ -3,7 +3,7 @@
     {
       "note" : "new",
       "category": "Аналоговий",
-      "image": "media/Analog.jpg",
+      "image": "media/Analog.jpeg",
       "name": "Cartina",
       "link" : "rozetka.com",
       "oldPrice" : null,
@@ -13,7 +13,7 @@
     {
       "note" : null,
       "category": "Механічні",
-      "image": "media/Mechanical.jpg",
+      "image": "media/Mechanical.jpeg",
       "name": "Casio",
       "link" : "rozetka.com",
       "oldPrice" : 2650,
@@ -23,7 +23,7 @@
     {
       "note" : "hit",
       "category": "Смарт",
-      "image": "media/Smart.jpg",
+      "image": "media/Smart.jpeg",
       "name": "Apple Watch",
       "link" : "rozetka.com",
       "oldPrice" : 3199,
@@ -43,7 +43,7 @@
     {
       "note" : "hit",
       "category": "Смарт",
-      "image": "media/Smart.jpg",
+      "image": "media/Smart.jpeg",
       "name": "Apple Watch",
       "link" : "rozetka.com",
       "oldPrice" : 3199,
