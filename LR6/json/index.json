@@ -1,43 +1,54 @@
-[
+{
+  "products" : [
     {
-      "name": "Cartina",
-      "price": 1240,
-      "status": "Новинка",
+      "note" : "new",
       "category": "Аналоговий",
-      "availability": false,
-      "image": "media/Analog.jpg"
+      "image": "media/Analog.jpg",
+      "name": "Cartina",
+      "link" : "rozetka.com",
+      "oldPrice" : null,
+      "price" : null,
+      "available" : false
     },
     {
-      "name": "Casio",
-      "price": 2150,
-      "status": "Хіт продажів",
+      "note" : null,
       "category": "Механічні",
-      "availability": true,
-      "image": "media/Mechanical.jpg"
+      "image": "media/Mechanical.jpg",
+      "name": "Casio",
+      "link" : "rozetka.com",
+      "oldPrice" : 2650,
+      "price" : 2145,
+      "available" : true
     },
     {
+      "note" : "hit",
+      "category": "Смарт",
+      "image": "media/Smart.jpg",
       "name": "Apple Watch",
-      "price": 3199,
-      "status": "Хіт продажів",
-      "category": "Для роботи з текстом",
-      "availability": true,
-      "image": "media/Smart.jpg"
+      "link" : "rozetka.com",
+      "oldPrice" : 3199,
+      "price" : 2850,
+      "available" : true
     },
     {
+      "note" : null,
+      "category": "Цифрові",
+      "image": "media/Digital.jpg",
       "name": "Tablet",
-      "price": 1000,
-      "category": "Сенсорні",
-      "status": "",
-      "availability": true,
-      "image": "media/Digital.jpg"
+      "link" : "rozetka.com",
+      "oldPrice" : 1365,
+      "price" : 1000,
+      "available" : true
     },
     {
+      "note" : "hit",
+      "category": "Смарт",
+      "image": "media/Smart.jpg",
       "name": "Apple Watch",
-      "price": 3199,
-      "status": "Хіт продажів",
-      "category": "Для роботи з текстом",
-      "availability": true,
-      "image": "media/Smart.jpg"
+      "link" : "rozetka.com",
+      "oldPrice" : 3199,
+      "price" : 2850,
+      "available" : true
     }
-]
-  
+  ]
+}
