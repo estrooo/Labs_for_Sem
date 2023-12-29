@@ -30,6 +30,14 @@
       "status": "",
       "availability": true,
       "image": "media/Digital.jpg"
+    },
+    {
+      "name": "Apple Watch",
+      "price": 3199,
+      "status": "Хіт продажів",
+      "category": "Для роботи з текстом",
+      "availability": true,
+      "image": "media/Smart.jpg"
     }
 ]
   
