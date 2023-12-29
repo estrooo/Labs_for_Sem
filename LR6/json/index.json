@@ -1,0 +1,35 @@
+[
+    {
+      "name": "Cartina",
+      "price": 1240,
+      "status": "Новинка",
+      "category": "Аналоговий",
+      "availability": false,
+      "image": "media/Analog.jpg"
+    },
+    {
+      "name": "Casio",
+      "price": 2150,
+      "status": "Хіт продажів",
+      "category": "Механічні",
+      "availability": false,
+      "image": "media/Mechanical.jpg"
+    },
+    {
+      "name": "Apple Watch",
+      "price": 3199,
+      "status": "Хіт продажів",
+      "category": "Для роботи з текстом",
+      "availability": true,
+      "image": "media/Smart.jpg"
+    },
+    {
+      "name": "Tablet",
+      "price": 1000,
+      "category": "Сенсорні",
+      "status": "",
+      "availability": true,
+      "image": "media/Digital.jpg"
+    }
+]
+  
